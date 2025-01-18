@@ -10,3 +10,9 @@
   (ex: "Form W-2" should not return "Form W-2 P", etc.) The downloaded PDFs should be downloaded to a
   subdirectory under your script's main directory with the name of the form, and the file name should be the "Form
   Name - Year" (ex: Form W-2/Form W-2 - 2020.pdf)
+
+  1. Set up app to request html from specified url: https://www.irs.gov/prior-year-forms-and-instructions
+
+  2. Print out parsed html to vscode terminal and determine which classes, divs, or other elements are needed to retrieve the correct data (pdfs)
+
+  3.
