@@ -4,7 +4,6 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 import json
 import os
-from find_the_form.py import *
 
 # %%
 # Get input for desired form year or years
